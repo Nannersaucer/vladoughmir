@@ -8,7 +8,7 @@ const config = {
         'home': './public/client/home.js',
     },
     output: {
-        path: path.resolve(__dirname, './public/compiled_js'),
+        path: path.resolve(__dirname, 'public/compiled_js'),
         filename: '[name].bundle.js'
     },
     module: {
